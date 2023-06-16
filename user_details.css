@@ -1,0 +1,119 @@
+.mainDiv{
+    width: 90%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 auto 20px;
+    background: slategrey;
+    border: paleturquoise solid 2px;
+    border-radius: 20px;
+}
+
+.wrapDiv{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+.keyValue{
+    width: 40%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: paleturquoise solid 2px;
+    box-shadow: 0 10px 20px white;
+    background: grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.divNestedObject{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: dodgerblue solid 2px;
+    box-shadow: 0 10px 20px dodgerblue;
+    background: grey;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 35px dodgerblue;
+    font-size: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+button:hover{
+    box-shadow: 5px 15px 35px white ;
+    background:powderblue;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: slategrey;
+    box-sizing: border-box;
+    gap: 5px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.postsP{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /*margin: 20px;*/
+    box-sizing: border-box;
+}
+.postsDiv{
+    border: paleturquoise solid 2px;
+    width: 17%;
+    border-radius: 10px;
+    height: 200px;
+    box-shadow: 0 10px 20px white;
+    box-sizing: border-box;
+}
+
+.postsDiv button{
+    width: 50%;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 35px dodgerblue;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    border: paleturquoise solid 2px;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.postsDiv button:hover{
+    box-shadow: 5px 15px 35px white ;
+    background:powderblue;
+
+}

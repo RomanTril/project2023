@@ -1,0 +1,103 @@
+.itemDiv{
+    border: paleturquoise solid 2px;
+    width: 17%;
+    border-radius: 10px;
+    height: 200px;
+    box-shadow: 0 10px 20px white;
+    box-sizing: border-box;
+
+}
+
+.itemDiv button{
+    width: 50%;
+    height: 20%;
+    border-radius: 10px;
+    box-shadow: 0 15px 35px dodgerblue;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    border: paleturquoise solid 2px;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+}
+.itemDiv button:hover{
+    box-shadow: 5px 15px 35px white ;
+    background:powderblue;
+
+}
+
+.wrap{
+    background: slategrey;
+    width: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0 auto 20px;
+    border: paleturquoise solid 2px;
+    border-radius: 20px;
+
+}
+
+.wrap div{
+    padding: 10px;
+    box-sizing: border-box;
+    background: grey;
+    border: paleturquoise solid 2px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px white;
+}
+.commentsDiv  {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background: slategrey;
+    border-radius: 20px;
+    border: paleturquoise solid 2px;
+}
+.commentsDiv button{
+    background: olive;
+    border-radius: 10px;
+    box-shadow: 0 15px 35px ;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    font-size: 20px;
+}
+button:hover {
+    box-shadow: 5px 15px 35px white;
+    background: powderblue;
+}
+
+.commentDiv{
+    width: 90%;
+    box-sizing: border-box;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    flex-wrap: wrap;
+    background: slategrey;
+    border-radius: 20px;
+
+}
+
+.commentDiv div{
+    background: grey;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px white;
+    border: paleturquoise solid 2px;
+}
